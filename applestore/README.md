@@ -27,7 +27,7 @@
 
 好了拿到 **iphone8** 之後就可以開始 leak information 了！首先是來 `read` 讀上去的 buffer memory layout:
 
-~~~python
+~~~
 	+---------+
 	|    |xxxx|   buffer start(2 bytes)
 	-----------
